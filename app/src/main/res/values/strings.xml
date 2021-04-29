@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Discrete Math lab1</string>
+    <string name="enter_first_set_hint">Enter set A</string>
+    <string name="enter_second_set_hint">Enter set B</string>
+    <string name="solve">Solve</string>
+    <string name="output_set1">A: %1$s</string>
+    <string name="output_set2">B: %1$s</string>
+    <string name="output_result">%1$s = %2$s</string>
+</resources>

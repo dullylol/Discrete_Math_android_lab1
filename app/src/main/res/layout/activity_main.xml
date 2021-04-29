@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+
+    <EditText
+        android:id="@+id/set1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|top"
+        android:layout_margin="10dp"
+        android:hint="@string/enter_first_set_hint"
+        android:inputType="textMultiLine"
+        android:maxLength="60"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"/>
+
+    <EditText
+        android:id="@+id/set2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|top"
+        android:layout_margin="10dp"
+        android:hint="@string/enter_second_set_hint"
+        android:inputType="textMultiLine"
+        android:maxLength="60"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"/>
+
+    <Button
+        android:id="@+id/solve_btn"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/solve" />
+
+    <TextView
+        android:id="@+id/set1_tv"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/set2_tv"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/result_tv"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/yellow"/>
+
+
+</LinearLayout>
